@@ -33,7 +33,7 @@ export const MapLinksScene: React.FC<{ card: string; line: string }> = ({ card, 
         })}
         <div style={{ marginTop: 20, fontSize: 46, fontWeight: 600, color: "white", lineHeight: 1.3 }}>{line}</div>
       </div>
-      <div style={{ position: "absolute", top: SAFE.bottom - 40, left: SAFE.left, fontSize: 24, color: "rgba(255,255,255,0.7)" }}>{CREDIT}</div>
+      <div style={{ position: "absolute", bottom: 40, left: 0, right: 0, textAlign: "center", fontSize: 24, color: "rgba(255,255,255,0.7)" }}>{CREDIT}</div>
     </AbsoluteFill>
   );
 };

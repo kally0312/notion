@@ -36,7 +36,7 @@ export const PhotoScene: React.FC<PhotoSceneProps> = ({ photo, card, line, tag, 
         </div>
       ) : null}
       <Caption card={card} line={line} instant={instant} />
-      <div style={{ position: "absolute", top: SAFE.bottom - 40, left: SAFE.left, fontFamily: FONT, fontSize: 24, color: "rgba(255,255,255,0.75)" }}>
+      <div style={{ position: "absolute", bottom: 40, left: 0, right: 0, textAlign: "center", fontFamily: FONT, fontSize: 24, color: "rgba(255,255,255,0.75)" }}>
         {CREDIT}
       </div>
     </AbsoluteFill>
